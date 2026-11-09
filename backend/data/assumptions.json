@@ -1,0 +1,18 @@
+{
+  "currency": "INR",
+  "currency_symbol": "₹",
+  "default_petrol_price_per_litre": 102.0,
+  "default_electricity_tariff_per_kwh": 8.0,
+  "default_daily_distance_km": 30,
+  "default_monthly_usage_days": 25,
+  "co2_petrol_g_per_km": 54.0,
+  "co2_ev_direct_g_per_km": 0.0,
+  "co2_grid_indirect_g_per_kwh": 710.0,
+  "calculation_horizon_years": [1, 3, 5],
+  "disclaimers": {
+    "illustrative_data": "All vehicle specifications, pricing, mileage/range, and maintenance figures are sample illustrative estimates for Indian two-wheelers and not verified live manufacturer data.",
+    "pricing_notice": "Fuel rates (₹102/L) and residential power tariffs (₹8/kWh) are illustrative benchmarks and vary across Indian states and discoms.",
+    "cost_exclusions": "Calculations include estimated purchase price, fuel/energy expenses, and standard periodic service maintenance. Calculations exclude insurance premiums, vehicle financing/interest (EMI), regional RTO road taxes, battery degradation replacement, tyre replacements, and resale value.",
+    "neutrality_pledge": "SahiDrive does not automatically promote EVs or ICE vehicles. Recommendations are calculated objectively based on your budget, travel pattern, and charging realities."
+  }
+}

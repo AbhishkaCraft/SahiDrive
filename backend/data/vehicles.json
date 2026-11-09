@@ -1,0 +1,408 @@
+[
+  {
+    "id": "honda-activa-6g",
+    "name": "Honda Activa 6G (DLX)",
+    "brand": "Honda",
+    "category": "scooter",
+    "fuel_type": "petrol",
+    "price_ex_showroom": 79000,
+    "on_road_price_est": 92500,
+    "engine_displacement_cc": 109.5,
+    "fuel_tank_capacity_l": 5.3,
+    "mileage_kmpl": 50,
+    "annual_maintenance_base": 3400,
+    "top_speed_kmh": 85,
+    "warranty_years": 3,
+    "warranty_km": 36000,
+    "description": "India's highest-selling petrol scooter. Extremely reliable, hassle-free maintenance, and omnipresent service network.",
+    "tags": ["city_commute", "family_convenience", "high_resale", "low_risk"],
+    "best_suited_for": "Daily household commutes, quick errands, and riders who value effortless reliability and high resale liquidity.",
+    "pros": [
+      "Unmatched brand reliability and massive service network",
+      "Instant refueling anywhere across India",
+      "Robust metal body construction and comfortable ergonomics"
+    ],
+    "cons": [
+      "Higher fuel running cost (~₹2.04/km at ₹102/L)",
+      "Basic analog/semi-digital console with minimal smart features",
+      "Regular oil and periodic engine maintenance required"
+    ]
+  },
+  {
+    "id": "tvs-jupiter-110",
+    "name": "TVS Jupiter 110",
+    "brand": "TVS",
+    "category": "scooter",
+    "fuel_type": "petrol",
+    "price_ex_showroom": 76500,
+    "on_road_price_est": 89000,
+    "engine_displacement_cc": 113.3,
+    "fuel_tank_capacity_l": 5.1,
+    "mileage_kmpl": 52,
+    "annual_maintenance_base": 3200,
+    "top_speed_kmh": 82,
+    "warranty_years": 5,
+    "warranty_km": 50000,
+    "description": "A refined family scooter offering plush suspension, external fuel lid convenience, and dependable fuel economy.",
+    "tags": ["family_convenience", "city_commute", "comfort_ride", "budget_conscious"],
+    "best_suited_for": "Family riders seeking comfortable ride quality, generous legroom, and dependable city mileage.",
+    "pros": [
+      "External fuel filler cap saves convenience at petrol bunks",
+      "Very comfortable plush telescopic suspension",
+      "Excellent value-for-money pricing in 110cc segment"
+    ],
+    "cons": [
+      "Petrol running expense accumulates over high monthly distances",
+      "Engine feels stressed above 75 km/h",
+      "Frequent servicing visits needed compared to EVs"
+    ]
+  },
+  {
+    "id": "suzuki-access-125",
+    "name": "Suzuki Access 125",
+    "brand": "Suzuki",
+    "category": "scooter",
+    "fuel_type": "petrol",
+    "price_ex_showroom": 83500,
+    "on_road_price_est": 98000,
+    "engine_displacement_cc": 124.0,
+    "fuel_tank_capacity_l": 5.0,
+    "mileage_kmpl": 48,
+    "annual_maintenance_base": 3600,
+    "top_speed_kmh": 90,
+    "warranty_years": 2,
+    "warranty_km": 24000,
+    "description": "The benchmark 125cc petrol scooter combining peppy acceleration, classic retro styling, and lightweight flickability.",
+    "tags": ["peppy_city", "retro_styling", "comfort_ride", "commute_and_errands"],
+    "best_suited_for": "Urban professionals and college commuters wanting brisk throttle response with retro charm.",
+    "pros": [
+      "Eager 125cc engine pickup with quick mid-range pull",
+      "Very lightweight chassis and easy center-stand operation",
+      "Spacious flat floorboard and large underseat bay"
+    ],
+    "cons": [
+      "Slightly lower fuel economy (48 kmpl) than 100-110cc peers",
+      "Running cost remains above ₹2.10/km",
+      "Service center coverage is smaller than Hero or Honda"
+    ]
+  },
+  {
+    "id": "hero-splendor-plus",
+    "name": "Hero Splendor Plus XTEC",
+    "brand": "Hero",
+    "category": "motorcycle",
+    "fuel_type": "petrol",
+    "price_ex_showroom": 78000,
+    "on_road_price_est": 91000,
+    "engine_displacement_cc": 97.2,
+    "fuel_tank_capacity_l": 9.8,
+    "mileage_kmpl": 65,
+    "annual_maintenance_base": 2800,
+    "top_speed_kmh": 85,
+    "warranty_years": 5,
+    "warranty_km": 70000,
+    "description": "India's undisputed fuel economy king. Minimal upkeep costs, legendary durability, and cheap spare parts everywhere.",
+    "tags": ["budget_conscious", "high_mileage", "rural_and_semiurban", "low_maintenance"],
+    "best_suited_for": "High-distance commuters, delivery partners, and budget-conscious buyers seeking rock-bottom running and repair costs.",
+    "pros": [
+      "Outstanding 65 km/l real-world petrol mileage",
+      "Lowest spare parts pricing and universal mechanics anywhere in India",
+      "Near 600+ km range on a single full tank of 9.8 litres"
+    ],
+    "cons": [
+      "Barebones styling and modest power output (8 bhp)",
+      "Skinny tyres and basic drum braking dynamics",
+      "Still consumes petrol and emits exhaust CO2 emissions"
+    ]
+  },
+  {
+    "id": "honda-shine-125",
+    "name": "Honda Shine 125",
+    "brand": "Honda",
+    "category": "motorcycle",
+    "fuel_type": "petrol",
+    "price_ex_showroom": 82000,
+    "on_road_price_est": 96500,
+    "engine_displacement_cc": 124.0,
+    "fuel_tank_capacity_l": 10.5,
+    "mileage_kmpl": 55,
+    "annual_maintenance_base": 3100,
+    "top_speed_kmh": 95,
+    "warranty_years": 3,
+    "warranty_km": 42000,
+    "description": "The gold standard of smooth 125cc commuter motorcycles with a 5-speed gearbox and quiet eSP technology.",
+    "tags": ["daily_commute", "smooth_engine", "highway_capable", "dependable"],
+    "best_suited_for": "Riders commuting 40-70 km daily who want a quiet, vibration-free ride with highway overtaking capability.",
+    "pros": [
+      "Buttery-smooth engine refinement and quiet silent-start",
+      "5-speed gearbox enables relaxed 70-80 km/h cruising",
+      "Very high market resale value"
+    ],
+    "cons": [
+      "Running costs (~₹1.85/km) remain substantially higher than electric bikes",
+      "Traditional styling lacks youth appeal",
+      "Periodic chain lubing and engine oil upkeep"
+    ]
+  },
+  {
+    "id": "bajaj-pulsar-150",
+    "name": "Bajaj Pulsar 150 Twin Disc",
+    "brand": "Bajaj",
+    "category": "motorcycle",
+    "fuel_type": "petrol",
+    "price_ex_showroom": 113000,
+    "on_road_price_est": 134000,
+    "engine_displacement_cc": 149.5,
+    "fuel_tank_capacity_l": 15.0,
+    "mileage_kmpl": 45,
+    "annual_maintenance_base": 4400,
+    "top_speed_kmh": 110,
+    "warranty_years": 5,
+    "warranty_km": 75000,
+    "description": "An iconic Indian sporty commuter bike known for muscular road presence, DTS-i punch, and highway stability.",
+    "tags": ["sporty_performance", "highway_capable", "muscular_styling", "enthusiast"],
+    "best_suited_for": "Young riders and weekend commuters wanting sporty acceleration, road presence, and highway touring freedom.",
+    "pros": [
+      "Strong 14 PS engine with great top-end pull and disc brake confidence",
+      "Huge 15-litre tank gives ~650 km cruising range without stopping",
+      "Immense emotional appeal and muscular wolf-eyed front styling"
+    ],
+    "cons": [
+      "Heaviest running cost in commuter class (~₹2.27/km)",
+      "Higher annual maintenance with sportier parts and disc pads",
+      "Heavy kerb weight (148 kg) can be tiring in tight bumper traffic"
+    ]
+  },
+  {
+    "id": "royal-enfield-classic-350",
+    "name": "Royal Enfield Classic 350",
+    "brand": "Royal Enfield",
+    "category": "motorcycle",
+    "fuel_type": "petrol",
+    "price_ex_showroom": 195000,
+    "on_road_price_est": 228000,
+    "engine_displacement_cc": 349.0,
+    "fuel_tank_capacity_l": 13.0,
+    "mileage_kmpl": 35,
+    "annual_maintenance_base": 7500,
+    "top_speed_kmh": 115,
+    "warranty_years": 3,
+    "warranty_km": 30000,
+    "description": "Timeless retro cruiser motorcycle with the signature J-series engine thump, heavyweight road authority, and touring comfort.",
+    "tags": ["lifestyle_cruiser", "highway_tourer", "retro_styling", "premium"],
+    "best_suited_for": "Long-distance tourers and lifestyle riders who prize acoustic presence and relaxed open-road touring over pure economy.",
+    "pros": [
+      "Iconic retro charisma, unmatched road presence, and heavy cruising stability",
+      "Vibration-free J-series 349cc engine with strong low-end torque",
+      "Limitless highway freedom without charging anxiety"
+    ],
+    "cons": [
+      "High purchase price and running cost (~₹2.91/km)",
+      "Heavyweight (195 kg) not ideal for short congested city errands",
+      "Substantial annual maintenance and tire wear expenses"
+    ]
+  },
+  {
+    "id": "ola-s1-pro-gen2",
+    "name": "Ola S1 Pro (Gen 2)",
+    "brand": "Ola Electric",
+    "category": "scooter",
+    "fuel_type": "electric",
+    "price_ex_showroom": 134000,
+    "on_road_price_est": 145000,
+    "battery_capacity_kwh": 4.0,
+    "range_km": 145,
+    "charging_time_hrs": 6.5,
+    "annual_maintenance_base": 1800,
+    "top_speed_kmh": 120,
+    "warranty_years": 8,
+    "warranty_km": 80000,
+    "description": "High-performance electric scooter with class-leading top speed, 4 kWh battery, cruise control, and connected touchscreen tech.",
+    "tags": ["high_performance", "tech_loaded", "fast_charging", "green_eco", "high_daily_mileage"],
+    "best_suited_for": "Daily commuters travelling 40-70 km with dedicated home/office charging who want top-tier acceleration and smart features.",
+    "pros": [
+      "Blistering acceleration (0-40 in 2.6s) and 120 km/h top speed",
+      "Remarkable running cost savings (~₹0.22/km vs ₹2.00+ for petrol)",
+      "Standard 8-year battery warranty coverage"
+    ],
+    "cons": [
+      "Requires dedicated 15A home/office socket or public Hypercharger access",
+      "Software glitches and service turnaround can occasionally be inconsistent",
+      "Substantial upfront purchase premium over petrol scooters"
+    ]
+  },
+  {
+    "id": "ola-s1-x-3kwh",
+    "name": "Ola S1 X (3 kWh)",
+    "brand": "Ola Electric",
+    "category": "scooter",
+    "fuel_type": "electric",
+    "price_ex_showroom": 89000,
+    "on_road_price_est": 99000,
+    "battery_capacity_kwh": 3.0,
+    "range_km": 110,
+    "charging_time_hrs": 7.4,
+    "annual_maintenance_base": 1600,
+    "top_speed_kmh": 90,
+    "warranty_years": 8,
+    "warranty_km": 80000,
+    "description": "Affordable mass-market electric scooter bringing EV running economics directly to petrol 110cc scooter price points.",
+    "tags": ["budget_conscious", "green_eco", "city_commute", "value_for_money"],
+    "best_suited_for": "Budget-focused city commuters with home charging who want an EV that matches petrol scooter pricing.",
+    "pros": [
+      "Ex-showroom price under ₹90,000 rivaling petrol Activa/Jupiter",
+      "Very low electricity running expense (~₹0.22/km)",
+      "8-year battery warranty gives peace of mind"
+    ],
+    "cons": [
+      "Physical key and segment-basic segmented LCD screen (no touchscreen)",
+      "7.4 hours standard charge time for full top-up",
+      "Needs reliable 5A/15A socket at ground parking"
+    ]
+  },
+  {
+    "id": "ather-450x-3-7kwh",
+    "name": "Ather 450X (3.7 kWh)",
+    "brand": "Ather Energy",
+    "category": "scooter",
+    "fuel_type": "electric",
+    "price_ex_showroom": 145000,
+    "on_road_price_est": 158000,
+    "battery_capacity_kwh": 3.7,
+    "range_km": 115,
+    "charging_time_hrs": 5.5,
+    "annual_maintenance_base": 2200,
+    "top_speed_kmh": 90,
+    "warranty_years": 5,
+    "warranty_km": 60000,
+    "description": "The engineering benchmark among Indian electric scooters. Renowned for razor-sharp handling, true Google Maps, and Ather Grid fast charging.",
+    "tags": ["high_performance", "tech_loaded", "premium_build", "green_eco", "fast_charging"],
+    "best_suited_for": "Discerning tech enthusiasts and urban professionals who demand premium build quality, predictable battery thermal management, and rapid fast-charging.",
+    "pros": [
+      "Exceptional build engineering, balance, and sports-car like handling",
+      "Ather Grid fast charging network across 150+ Indian cities",
+      "Accurate Google Maps dashboard navigation and stable OTA updates"
+    ],
+    "cons": [
+      "High upfront pricing (₹1.5L+ on-road)",
+      "True range is ~110-115 km in smart eco mode, less in Warp mode",
+      "Smaller underseat storage compared to family scooters"
+    ]
+  },
+  {
+    "id": "ather-rizta-z-3-7kwh",
+    "name": "Ather Rizta Z (3.7 kWh)",
+    "brand": "Ather Energy",
+    "category": "scooter",
+    "fuel_type": "electric",
+    "price_ex_showroom": 140000,
+    "on_road_price_est": 152000,
+    "battery_capacity_kwh": 3.7,
+    "range_km": 120,
+    "charging_time_hrs": 5.5,
+    "annual_maintenance_base": 2000,
+    "top_speed_kmh": 80,
+    "warranty_years": 5,
+    "warranty_km": 60000,
+    "description": "Ather's purpose-built family scooter featuring the longest seat in the category, 34L underseat storage, backrest, and SkidControl safety.",
+    "tags": ["family_convenience", "comfort_ride", "green_eco", "high_safety"],
+    "best_suited_for": "Families, couples, and utility riders prioritizing seat comfort, massive boot space, and pillion back support.",
+    "pros": [
+      "Longest seat in the Indian scooter industry with supportive backrest",
+      "Huge 34L underseat boot + optional frunk luggage solution",
+      "Traction control (SkidControl) for wet monsoons and gravel"
+    ],
+    "cons": [
+      "Top speed capped at 80 km/h (family-oriented tuning)",
+      "Substantial upfront cost over petrol Activa",
+      "Home parking plug required for daily overnight charging"
+    ]
+  },
+  {
+    "id": "tvs-iqube-3-4kwh",
+    "name": "TVS iQube (3.4 kWh)",
+    "brand": "TVS",
+    "category": "scooter",
+    "fuel_type": "electric",
+    "price_ex_showroom": 126000,
+    "on_road_price_est": 137000,
+    "battery_capacity_kwh": 3.4,
+    "range_km": 100,
+    "charging_time_hrs": 4.5,
+    "annual_maintenance_base": 1900,
+    "top_speed_kmh": 78,
+    "warranty_years": 3,
+    "warranty_km": 50000,
+    "description": "A conventional, whisper-quiet electric scooter from legacy automaker TVS with reliable electrical architecture and comfort.",
+    "tags": ["family_convenience", "dependable", "comfort_ride", "green_eco"],
+    "best_suited_for": "Skeptical buyers transitioning from petrol who want a familiar, conservative scooter feel backed by TVS authorized dealerships.",
+    "pros": [
+      "Traditional scooter ergonomics that make seniors and family members comfortable",
+      "Extremely smooth throttle calibration without jerky regenerative braking",
+      "Widespread TVS dealership and EV service presence"
+    ],
+    "cons": [
+      "Modest top speed of 78 km/h",
+      "Conservative 100 km real range requires charging every 2-3 days",
+      "Charger carrying takes up underseat space"
+    ]
+  },
+  {
+    "id": "bajaj-chetak-premium",
+    "name": "Bajaj Chetak Premium",
+    "brand": "Bajaj",
+    "category": "scooter",
+    "fuel_type": "electric",
+    "price_ex_showroom": 128000,
+    "on_road_price_est": 139000,
+    "battery_capacity_kwh": 3.2,
+    "range_km": 110,
+    "charging_time_hrs": 4.5,
+    "annual_maintenance_base": 2100,
+    "top_speed_kmh": 73,
+    "warranty_years": 3,
+    "warranty_km": 50000,
+    "description": "Full sheet-metal body electric scooter blending iconic Indian Chetak heritage with modern European aesthetics.",
+    "tags": ["retro_styling", "premium_build", "green_eco", "city_commute"],
+    "best_suited_for": "Style-conscious urban riders who love full-metal craftsmanship, retro curved lines, and dependable city commute.",
+    "pros": [
+      "Durable, seamless all-metal bodywork with premium paint finish",
+      "Built-in onboard charger for convenient plug-in at any standard 5A socket",
+      "Sequential LED indicators and elegant retro digital dial"
+    ],
+    "cons": [
+      "Top speed limited to 73 km/h",
+      "Heavy metal body slightly limits acceleration compared to Ola or Ather",
+      "Limited rear boot capacity"
+    ]
+  },
+  {
+    "id": "revolt-rv400",
+    "name": "Revolt RV400",
+    "brand": "Revolt Motors",
+    "category": "motorcycle",
+    "fuel_type": "electric",
+    "price_ex_showroom": 138000,
+    "on_road_price_est": 149000,
+    "battery_capacity_kwh": 3.24,
+    "range_km": 100,
+    "charging_time_hrs": 4.5,
+    "annual_maintenance_base": 2200,
+    "top_speed_kmh": 85,
+    "warranty_years": 5,
+    "warranty_km": 75000,
+    "description": "One of India's few mainstream electric street bikes featuring swappable battery capability and simulated motorcycle exhaust sounds.",
+    "tags": ["electric_motorcycle", "sporty_performance", "swappable_battery", "green_eco"],
+    "best_suited_for": "Motorcycle enthusiasts seeking zero fuel expenses, removable indoor battery charging, and upright street posture.",
+    "pros": [
+      "Removable battery can be carried indoors to charge in high-rise apartments",
+      "Sporty motorcycle ergonomics with upside-down front forks",
+      "Customizable artificial engine acoustic exhaust speaker"
+    ],
+    "cons": [
+      "Range drops to ~80 km in Sport mode",
+      "Belt drive requires tension inspection and protection from road debris",
+      "Limited dealer presence in tier-2 and tier-3 towns"
+    ]
+  }
+]
