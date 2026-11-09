@@ -194,7 +194,9 @@ def generate_recommendations(
             "suitability": suitability,
             "reasons_for": reasons_for[:3], # Top 3 reasons
             "trade_offs": trade_offs[:3],   # Top 3 trade-offs
+            "daily_cost_estimate": calc.get("daily_running_cost", round(daily_distance_km * cost_km, 2)),
             "monthly_cost_estimate": monthly_run,
+            "annual_cost_estimate": calc.get("annual_running_cost", round(monthly_run * 12, 2)),
             "cost_per_km": cost_km,
             "five_year_total_ownership": five_yr_total,
         })
@@ -259,6 +261,8 @@ def generate_recommendations(
             "primary_priority": primary_priority,
             "preferred_category": preferred_category,
         },
+        "recommended_vehicle": scored_list[0] if scored_list else None,
+        "alternatives": scored_list[1:] if len(scored_list) > 1 else [],
         "recommendations": scored_list,
         "key_takeaway": key_takeaway,
         "charging_guidance": charging_guidance,

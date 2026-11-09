@@ -35,16 +35,33 @@ def test_endpoints():
     assert v["brand"] == "Ola Electric"
     print("✓ GET /api/vehicles/ola-s1-pro-gen2: Loaded successfully")
 
-    # 5. Calculate
-    calc = calculate_costs(CalculateRequest(
+    # 5. Calculate (Petrol: Activa 6G)
+    calc_petrol = calculate_costs(CalculateRequest(
         vehicle_id="honda-activa-6g",
         daily_distance_km=30,
         monthly_usage_days=25,
         petrol_price_per_litre=102.0,
         electricity_tariff_per_kwh=8.0
     ))
-    assert calc["monthly_running_cost"] == 1530.0
-    print(f"✓ POST /api/calculate: Monthly = ₹{calc['monthly_running_cost']}, Cost/km = ₹{calc['cost_per_km']}")
+    assert calc_petrol["monthly_running_cost"] == 1530.0
+    assert calc_petrol["daily_running_cost"] == 61.2
+    assert calc_petrol["annual_running_cost"] == 18360.0
+    assert calc_petrol["horizons"]["5_year"]["total_ownership_cost"] > calc_petrol["purchase_price"]
+    print(f"✓ POST /calculate (Petrol): Daily = ₹{calc_petrol['daily_running_cost']}, Monthly = ₹{calc_petrol['monthly_running_cost']}, 5-Yr Total = ₹{calc_petrol['horizons']['5_year']['total_ownership_cost']}")
+
+    # 5b. Calculate (Electric: Ola S1 Pro)
+    calc_ev = calculate_costs(CalculateRequest(
+        vehicle_id="ola-s1-pro-gen2",
+        daily_distance_km=30,
+        monthly_usage_days=25,
+        petrol_price_per_litre=102.0,
+        electricity_tariff_per_kwh=8.0
+    ))
+    assert calc_ev["cost_per_km"] < 0.30
+    assert calc_ev["monthly_running_cost"] < 250.0
+    assert calc_ev["daily_running_cost"] < 10.0
+    assert calc_ev["horizons"]["5_year"]["total_ownership_cost"] > calc_ev["purchase_price"]
+    print(f"✓ POST /calculate (EV): Daily = ₹{calc_ev['daily_running_cost']}, Monthly = ₹{calc_ev['monthly_running_cost']}, Cost/km = ₹{calc_ev['cost_per_km']}, 5-Yr Total = ₹{calc_ev['horizons']['5_year']['total_ownership_cost']}")
 
     # 6. Compare
     cmp = compare_vehicles_endpoint(CompareRequest(
@@ -82,6 +99,11 @@ def test_endpoints():
     top_ev = rec_ev["recommendations"][0]["vehicle"]
     assert top_ev["fuel_type"] == "electric", "Should recommend EV when home charging is available and low running cost is priority!"
     print(f"✓ POST /api/recommend: Top match with home charging = {top_ev['name']} (Score {rec_ev['recommendations'][0]['match_score']})")
+
+    # 9. Verify recommended_vehicle and alternatives in recommend response
+    assert rec_ev.get("recommended_vehicle") is not None
+    assert "alternatives" in rec_ev
+    print(f"✓ Verified recommended_vehicle '{rec_ev['recommended_vehicle']['vehicle']['name']}' and {len(rec_ev['alternatives'])} alternatives")
 
     print("\nALL FASTAPI ENDPOINTS & BUSINESS LOGIC PASSED WITH 100% SUCCESS! 🚀")
 

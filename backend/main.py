@@ -35,6 +35,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/health")
 @app.get("/api/health")
 def health_check():
     return {
@@ -44,11 +45,13 @@ def health_check():
         "tagline": "The right vehicle. The right cost. The right decision.",
     }
 
+@app.get("/assumptions")
 @app.get("/api/assumptions")
 def get_assumptions():
     """Returns baseline calculation benchmarks, currency, CO2 factors and disclaimers."""
     return load_assumptions()
 
+@app.get("/vehicles")
 @app.get("/api/vehicles")
 def get_vehicles(
     category: Optional[str] = Query(None, description="scooter or motorcycle"),
@@ -77,6 +80,7 @@ def get_vehicles(
 
     return results
 
+@app.get("/vehicles/{vehicle_id}")
 @app.get("/api/vehicles/{vehicle_id}")
 def get_vehicle_details(vehicle_id: str):
     """Returns specific vehicle details by unique ID."""
@@ -85,6 +89,7 @@ def get_vehicle_details(vehicle_id: str):
         raise HTTPException(status_code=404, detail=f"Vehicle '{vehicle_id}' not found.")
     return v
 
+@app.post("/calculate", response_model=CalculateResponse)
 @app.post("/api/calculate", response_model=CalculateResponse)
 def calculate_costs(req: CalculateRequest):
     """
@@ -123,6 +128,7 @@ def calculate_costs(req: CalculateRequest):
     )
     return result
 
+@app.post("/compare", response_model=CompareResponse)
 @app.post("/api/compare", response_model=CompareResponse)
 def compare_vehicles_endpoint(req: CompareRequest):
     """
@@ -147,6 +153,7 @@ def compare_vehicles_endpoint(req: CompareRequest):
     )
     return res
 
+@app.post("/recommend", response_model=RecommendResponse)
 @app.post("/api/recommend", response_model=RecommendResponse)
 def recommend_endpoint(req: RecommendRequest):
     """

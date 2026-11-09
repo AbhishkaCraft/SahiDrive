@@ -55,12 +55,14 @@ class CalculateResponse(BaseModel):
     fuel_type: str
     daily_distance_km: float
     monthly_usage_days: int
+    daily_running_cost: float = 0.0
     monthly_distance_km: float
     annual_distance_km: float
     cost_per_km: float
     monthly_running_cost: float
     annual_running_cost: float
     annual_maintenance_cost: float
+    purchase_price: float = 0.0
     horizons: Dict[str, CostHorizonBreakdown]
     summary_insight: str
     formula_explanation: Dict[str, str]
@@ -108,12 +110,16 @@ class ScoredVehicle(BaseModel):
     suitability: str
     reasons_for: List[str]
     trade_offs: List[str]
+    daily_cost_estimate: float = 0.0
     monthly_cost_estimate: float
+    annual_cost_estimate: float = 0.0
     cost_per_km: float
     five_year_total_ownership: float
 
 class RecommendResponse(BaseModel):
     user_inputs: Dict[str, Any]
+    recommended_vehicle: Optional[ScoredVehicle] = None
+    alternatives: Optional[List[ScoredVehicle]] = None
     recommendations: List[ScoredVehicle]
     key_takeaway: str
     charging_guidance: str

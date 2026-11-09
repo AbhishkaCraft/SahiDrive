@@ -74,6 +74,7 @@ def calculate_vehicle_costs(
         )
         formula = f"({bat} kWh ÷ {rng} km) × ₹{electricity_tariff}/kWh = ₹{cost_per_km:.2f}/km"
 
+    daily_running_cost = round(daily_distance_km * cost_per_km, 2)
     monthly_distance_km = round(daily_distance_km * monthly_usage_days, 1)
     annual_distance_km = round(monthly_distance_km * 12, 1)
 
@@ -117,6 +118,7 @@ def calculate_vehicle_costs(
         "fuel_type": fuel_type,
         "daily_distance_km": daily_distance_km,
         "monthly_usage_days": monthly_usage_days,
+        "daily_running_cost": daily_running_cost,
         "monthly_distance_km": monthly_distance_km,
         "annual_distance_km": annual_distance_km,
         "cost_per_km": cost_per_km,
