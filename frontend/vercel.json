@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://sahidrive.onrender.com/api/$1"
+    }
+  ]
+}
